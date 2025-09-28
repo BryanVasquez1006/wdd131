@@ -1,0 +1,121 @@
+:root {
+--top_bottom_colors: #db2329;
+--titlecolor: #2b3594;
+--defpadd: 20px;
+--defmarg: 20px;
+--margtop: 10px;
+--margbottom: 10px;
+--borderdefault: solid rgb(220, 220, 220) 0
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+    
+}
+
+header {
+    background-color: var(--top_bottom_colors);
+    padding: var(--defpadd);
+
+    color: white;
+    --card-border: solid black 1px;
+}
+
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: stretch;
+}
+
+main img {
+    
+    width: 100%;
+    height: auto;
+}
+
+main section {
+    margin: 10px;
+}
+
+
+main h2 {
+        color: var(--titlecolor);
+}
+
+.data  {
+    border: var(--borderdefault)
+}
+
+.weather {
+    border: var(--borderdefault);
+}
+
+.weather img {
+    width: 5rem;
+    height: auto;
+}
+
+footer {
+    background-color: var(--titlecolor);
+    color: white;
+    text-align: center;
+    padding: var(--defpadd);
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+
+
+
+@media screen and (min-width: 600px) {
+    main img {
+        display: none;
+    }
+
+    main {
+        position: relative;
+        overflow: hidden;
+        height: 100vh;
+        background: url("/images/england-large.webp") no-repeat center center;
+        background-size: cover;
+            
+        
+    }
+
+    .weather picture {
+        display: none;
+    }
+
+    .weather h2::after {
+        content: "🌤️";
+        display: block;
+    }
+
+    main section {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    main section:first-of-type {
+        position: absolute;
+        top: 20%;
+        width: 400px;
+        background-color: rgb(220, 220, 220, 0.5);
+        
+    }
+
+    main section:last-of-type {
+        position: absolute;
+        top: 70%;
+        left: 60%;
+        width: 400px;
+        background-color: rgb(220, 220, 220, 0.5);
+    }
+}
