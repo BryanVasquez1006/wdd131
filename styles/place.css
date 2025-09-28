@@ -83,7 +83,7 @@ footer p {
         position: relative;
         overflow: hidden;
         height: 100vh;
-        background: url("/images/england-large.webp") no-repeat center center;
+        background: url("../images/england-large.webp") no-repeat center center;
         background-size: cover;
             
         
