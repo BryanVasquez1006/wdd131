@@ -1,6 +1,11 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+}
+
+header div h1 {
+    margin-left: 40px;
 }
 main h1, h2 {
     text-align: center;
@@ -19,7 +24,7 @@ main div {
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
     display: block;
     width: 100%;
