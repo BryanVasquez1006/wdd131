@@ -1,0 +1,61 @@
+@media  (min-width: 37.5em) {
+    #mobile-menu-icon {
+        display: none;
+    }
+
+    header {
+        flex-direction: row;
+        color: black;
+    }
+
+    nav {
+        background-color: transparent;
+        display: block;
+        
+    }
+
+    ul {
+        flex-direction: row;
+    }
+
+    main div {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        min-height: 100vh;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    header li:hover {
+        background-color: #104F55;
+
+    }
+
+    header a:hover {
+    background-color: #104F55;
+    color: black;
+    
+
+    }
+
+    
+}
+
+@media (min-width: 57.5em) {
+    main div {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
