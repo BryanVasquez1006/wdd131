@@ -1,0 +1,28 @@
+h1, h2, h3, h4, h5 {
+    font-family: "Fredericka the Great", serif;
+}
+
+* {
+   font-family: "Comic Relief", serif; 
+}
+
+main img {
+    width: 200px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.schema {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.schema img {
+    width: 500px;
+
+}
