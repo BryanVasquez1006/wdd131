@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: brown;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+fieldset {
+    border: none;
+    
+}
+
+form {
+    margin-top: 50px;
+    border: solid gray 1px;
+    height: 700px;
+    padding: 20px;
+}
+
+legend {
+    font-weight: 600;
+}
+
+span {
+    color: rgb(20, 104, 173);
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: brown;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(232, 39, 39);
+}
+
+footer {
+    background-color: brown;
+    width: 100%;
+    margin-top: auto;
+    text-align: center;
+    color:white;
+    padding: 10px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+
+  gap: 20px; /* space between stars */
+}
+
+.rating label {
+  display: flex;
+  flex-direction: column; /* stack star and radio vertically */
+  align-items: center;
+  cursor: pointer;
+  
+}
+
+.rating input {
+    width: 100%;
+}
+
+.features {
+    display: flex;
+    flex-direction: column
+}
+
+.features input {
+    margin-top: 10px;
+    margin-right: 5px;
+    
+}
+
+.rating input[type="radio"],
+        input[type="date"],
+        input[type="submit"],
+        select {
+  margin-top: 5px;
+  width: 90%;
+  padding: 10px;
+}
+
+.rating input[type="radio"],
+input[type="checkbox"]
+{
+    height: 15px;
+    width: 15px;
+}
+
+textarea, input[type="text"], select {
+    padding: 10px;
+    width: 90%;
+}
+.rform1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+
+
