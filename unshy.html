@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore how to build significant and meaningful connections with others and make life more richful!">
+    <meta name="author" content="Bryan Vasquez">
+    <link rel="stylesheet" href="./styles/unshy.css">
+    <link rel="icon" type="image/png" href="images/unshy.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="./scripts/unshy.js" defer></script>
+
+    <title>Unshy</title>
+</head>
+<body>
+
+    <header>
+        <a href="unshy.html">
+            <img src="images/unshy.png" alt="Unshy logo" class="logo">
+        </a>
+        <button id="menu"></button>
+        <nav>
+            <ul>
+                <li><a href="./friendliness.html">Friendliness</a></li>
+                <li><a href="./compliments.html">Compliments</a></li>
+                <li><a href="./partnership.html">Finding a Partner</a></li>
+                <li><a href="./contactus.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+ <!--Mobile menu hidden on wider screens-->
+    <nav id="mobNav">
+        <ul>
+            <li><a href="./friendliness.html">Friendliness</a></li>
+            <li><a href="./compliments.html">Compliments</a></li>
+            <li><a href="./partnership.html">Finding a Partner</a></li>
+            <li><a href="./contactus.html">About</a></li>
+        </ul>
+    </nav>
+
+    <main class="homeMain">
+        <div id="mainDescription">
+            <h1>Looking for a more richer, meaningful life? Unshy got you!</h1>
+            <p>Start reviewing the following articles by clicking on them to warm up:</p>
+        </div>
+
+        <a href="./friendliness.html">
+            <section class="leftSide">
+                <h1>FRIENDLINESS</h1>
+                <h3>Dig into the basics on how to build stronger friendships with others!</h3>
+                <figure>
+                    <img src="./images/friendliness.png" alt="friends hugging each other" class="leftSideImg" loading="lazy" >
+                </figure>
+            </section>
+        </a>
+
+        <a href="./compliments.html" class="middleLink">
+            <section class="middleSide">
+                <h1>5 GREAT WAYS TO ACCEPT A COMPLIMENT(without feeling akward)</h1>
+                <figure>
+                    <img src="./images/thoughtful.png" alt="Thoughtful Woman" class="thouWoman" loading="lazy">
+                </figure>
+            </section>
+        </a>
+
+        <a href="./partnership.html" class="middleLink">
+            <section class="rightSide">
+                <section class="top">
+                    <h1>IN SEARCH OF A PARTNER IN BUSSINESS AND LIFE</h1>
+                    <figure>
+                        <img src="./images/partnership.png" alt="people meeting at a restaurant" class="partnerImg" loading="lazy" >
+                    </figure>
+                </section>
+        </a>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> Bryan Vasquez, El Salvador, San Salvador</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+</html>
