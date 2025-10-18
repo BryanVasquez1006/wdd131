@@ -269,7 +269,7 @@ textarea, input[type="text"], select {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 500px;
+    max-width: 400px;
     padding: 30px;
     background-color: white;
     border-radius: 10px;
@@ -392,6 +392,8 @@ input {
         display: flex;
         margin: 30px;
     }
+    
+    
 }
 
 
